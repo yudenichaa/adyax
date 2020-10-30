@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="js/index.js" defer></script>
+        <title>Adyax</title>
+    </head>
+    <body>
+        <header class="header header_primary">
+            <div class="header__container">
+                <img
+                    class="logo header__logo"
+                    src="images/logo.svg"
+                    alt="Logo image"
+                />
+                <p class="header__tagline header__tagline_primary">
+                    A Better Experience
+                </p>
+                <h1 class="header__headline header__headline_primary">
+                    <span class="header__subtitle header__subtitle_primary"
+                        >Front-End Developer</span
+                    >
+                </h1>
+                <p class="header__text header__text_primary">
+                    Adyax’s core values take top priority: we care for our
+                    client, and we care for our people. Staff and clients work
+                    in partnership with consistent, transparent communication.
+                </p>
+            </div>
+        </header>
+        <hr class="hr hr_primary" />
+        <main class="main">
+            <form class="main__form">
+                <div class="main__basic-info">
+                    <div class="col main__basic-info-left-col">
+                        <div class="form-group form-group_mb_30px">
+                            <label
+                                class="label label_primary label_mb_22px"
+                                for="name"
+                                >YOUR NAME</label
+                            >
+                            <input
+                                class="text-input text-input_primary"
+                                type="text"
+                                name="name"
+                            />
+                        </div>
+                        <div class="form-group form-group_mb_30px">
+                            <label
+                                class="label label_primary label_mb_22px"
+                                for="email"
+                                >YOUR EMAIL</label
+                            >
+                            <input
+                                class="text-input text-input_primary"
+                                type="email"
+                                name="email"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label
+                                class="label label_primary label_mb_22px"
+                                for="portfolio"
+                            >
+                                YOUR PORTOLIO / GITHUB
+                            </label>
+                            <input
+                                class="text-input text-input_primary"
+                                type="text"
+                                name="portfolio"
+                            />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group form-group_mb_30px">
+                            <label
+                                class="label label_primary label_mb_22px"
+                                for="message"
+                                >MESSAGE</label
+                            >
+                            <textarea
+                                class="message-input message-input_primary"
+                                name="message"
+                            ></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label
+                                class="label label_primary label_mb_22px"
+                                for="cv"
+                                >CV</label
+                            >
+                            <div class="file-loader file-loader_primary">
+                                <input
+                                    class="file-loader__input"
+                                    type="file"
+                                    name="cv"
+                                />
+                                <label
+                                    class="file-loader__label file-loader__label_primary"
+                                >
+                                    Choose file
+                                </label>
+                                <button
+                                    class="file-loader__button file-loader__button_primary"
+                                >
+                                    UPLOAD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group form-group_mb_57px">
+                    <label class="label label_big label_mb_13px">
+                        <span
+                            class="substring substring_font-family_lucida-grande"
+                            >Graduated from
+                        </span>
+                        <span class="substring substring_underline_primary"
+                            >htmlacademy.ru?</span
+                        >
+                    </label>
+                    <div class="form__radio-buttons">
+                        <div class="radio-button radio-button_mr_45px">
+                            <input
+                                checked
+                                class="radio-button__input"
+                                name="htmlacademy"
+                                type="radio"
+                                value="yes"
+                            />
+                            <div
+                                class="radio-button__checkmark radio-button__checkmark_primary"
+                            ></div>
+                            <label class="label label_primary">YES</label>
+                        </div>
+                        <div class="radio-button">
+                            <input
+                                class="radio-button__input"
+                                name="htmlacademy"
+                                type="radio"
+                                value="no"
+                            />
+                            <div
+                                class="radio-button__checkmark radio-button__checkmark_primary"
+                            ></div>
+                            <label class="label label_primary">NO</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group form-group_mb_103px">
+                    <label class="label label_secondary label_mb_27px">
+                        * Please mark skills you are best in, and types of tasks
+                        you are good at
+                    </label>
+                    <div class="main__skills">
+                        <div class="col main__skills-left-col">
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="jQuery"
+                                    value="jQuery"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox"
+                                    >jQuery</label
+                                >
+                            </div>
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="GRUNT"
+                                    value="GRUNT"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox"
+                                    >Use GRUNT</label
+                                >
+                            </div>
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="HAML"
+                                    value="HAML"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox">HAML</label>
+                            </div>
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="SASS"
+                                    value="SASS"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox">SASS</label>
+                            </div>
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="LESS"
+                                    value="LESS"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox">LESS</label>
+                            </div>
+                            <div class="checkbox">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="CoffeeScript"
+                                    value="CoffeeScript"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox"
+                                    >CoffeeScript</label
+                                >
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="Jade"
+                                    value="Jade"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox">Jade</label>
+                            </div>
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="Stylus"
+                                    value="Stylus"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox"
+                                    >Stylus</label
+                                >
+                            </div>
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="Angular"
+                                    value="Angular"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox"
+                                    >Know Angular</label
+                                >
+                            </div>
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="Android"
+                                    value="Android"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox"
+                                    >Front-end development for Android</label
+                                >
+                            </div>
+                            <div class="checkbox checkbox_mb_22px">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="iOS"
+                                    value="iOS"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox"
+                                    >Front-end development for iOS</label
+                                >
+                            </div>
+                            <div class="checkbox">
+                                <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="WindowsPhone"
+                                    value="WindowsPhone"
+                                />
+                                <div
+                                    class="checkbox__checkmark checkbox__checkmark_primary"
+                                ></div>
+                                <label class="label label_checkbox"
+                                    >Front-end development for Windows
+                                    Phone</label
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__submit">
+                    <button
+                        class="submit-button submit-button_primary"
+                        type="submit"
+                    >
+                        <span
+                            class="submit-button__line submit-button__line_primary"
+                        ></span>
+                        <span
+                            class="submit-button__text submit-button__text_primary"
+                            >SUBMIT</span
+                        >
+                    </button>
+                </div>
+            </form>
+        </main>
+        <footer class="footer footer_primary">
+            <img
+                class="footer__background-image"
+                src="images/map.png"
+                srcset="images/map@2x.png 2x, images/map@3x.png 3x"
+                alt="Map"
+            />
+            <p class="footer__text footer__text_primary">
+                Adyax specializes in working with multi-national, multi-brand
+                companies on a wide range of customer, client and
+                employee-facing solutions.
+            </p>
+        </footer>
+    </body>
+</html>
